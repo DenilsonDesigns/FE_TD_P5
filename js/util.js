@@ -4,14 +4,14 @@ function appendPhotos(photoObj) {
     let mainDiv = document.getElementById("photo-container");
     let imageLink = document.createElement("a");
     let imageToAppend = document.createElement("img");
-    imageLink.href = `/../photos/${key}`;
+    imageLink.href = `photos/${key}`;
     imageLink.setAttribute("data-lightbox", "nature");
     imageLink.setAttribute(
       "data-title",
       (imageToAppend.title = photoObj[key].desc)
     );
     // console.log(`/../photos/${key}`);
-    imageToAppend.src = `/../photos/${key}`;
+    imageToAppend.src = `photos/${key}`;
     imageToAppend.alt = photoObj[key].name;
     imageToAppend.title = photoObj[key].desc;
 
