@@ -3,22 +3,14 @@
 /* ============================================= */
 img {
   width: 20%;
-  margin: 2%;
+  margin: 2.5%;
+  align-items: center;
   @media (max-width: 768px) {
-    width: 45%;
+    width: 40%;
+    margin: 5%;
   }
   @media (max-width: 320px) {
     width: 90%;
+    margin: 5%;
   }
 }
-
-// .lightbox {
-//   @media (max-width: 768px) {
-//     width: 80%;
-//     margin-left: 10%;
-//   }
-//   @media (max-width: 320px) {
-//     width: 80%;
-//     margin-left: 10%;
-//   }
-// }

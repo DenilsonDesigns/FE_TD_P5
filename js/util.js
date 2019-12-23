@@ -10,12 +10,9 @@ function appendPhotos(photoObj) {
       "data-title",
       (imageToAppend.title = photoObj[key].desc)
     );
-    // console.log(`/../photos/${key}`);
     imageToAppend.src = `photos/${key}`;
     imageToAppend.alt = photoObj[key].name;
     imageToAppend.title = photoObj[key].desc;
-
-    // console.log(imageToAppend);
     mainDiv.appendChild(imageLink);
     imageLink.appendChild(imageToAppend);
   }

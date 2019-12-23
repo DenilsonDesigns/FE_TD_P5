@@ -2,7 +2,6 @@
 
 const imagesOnPage = document.getElementsByTagName("img");
 const searchInput = document.getElementById("search-input");
-console.log(imagesOnPage);
 appendPhotos(photoDesc);
 
 searchInput.addEventListener("keyup", () => {
