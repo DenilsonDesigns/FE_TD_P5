@@ -368,8 +368,26 @@ template {
 /* ============================================= */
 /*              Images                           */
 /* ============================================= */
+img {
+  width: 300px;
+  margin: 1%;
+}
+
 /* ============================================= */
 /*              Navigation                       */
 /* ============================================= */
+.search-holder {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+.search-holder input {
+  margin: 3% auto;
+  align-items: center;
+  padding: 1% 1%;
+  border-radius: 8px;
+  border: 0;
+  background-color: #ccc8c8;
+}
 
 /*# sourceMappingURL=styles.css.map */
