@@ -16,7 +16,7 @@ searchInput.addEventListener("keyup", () => {
         .toUpperCase()
         .indexOf(searchInput.value.toUpperCase()) > -1
     ) {
-      imagesOnPage[i].style.display = "block";
+      imagesOnPage[i].style.display = "";
     } else {
       imagesOnPage[i].style.display = "none";
     }
